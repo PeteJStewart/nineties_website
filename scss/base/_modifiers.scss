@@ -1,0 +1,37 @@
+/**
+  * Theses are all generic modifiers that can 
+  * be applied to any BEM block or element.
+  */
+ 
+ [class*="--container"] {
+    // @include outer-container;
+ }
+ 
+ [class*="--screenreader"] {
+     position:absolute;
+     left:-10000px;
+     top:auto;
+     width:1px;
+     height:1px;
+     overflow:hidden;
+ }
+ 
+ // [class*="--clear"] {
+ //     @extend %clear-float;
+ // }
+ // 
+ // 
+ // @for $i from 1 through $grid_columns {
+ //     [class*="--span-#{$i}"] {
+ //         @include media($small) {
+ //             @include span-columns($i);
+ //         }
+ //     }
+ //     $last: floor($grid_columns/$i);
+ //     [class*="--span-#{$i}"]:nth-of-type(#{$last}n+0) {
+ //         @include media($small) {
+ //             @include omega();
+ //         }
+ //     }
+ // }
+

@@ -1,0 +1,20 @@
+
+%background_repeat {
+    background-repeat: repeat;
+}
+
+%background_norepeat {
+    background-repeat: no-repeat;
+}
+
+%bg_one {
+    @extend %background_repeat;
+    background-image: url('../img/bg/card-blue50l35.jpg');
+}
+
+%bg_construction {
+    @extend %background_norepeat;
+    background-image: url('../animated_gifs/construction.gif');
+    width: 263px;
+    height: 56px;
+}

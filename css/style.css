@@ -1,0 +1,45 @@
+/***************
+ * Placeholders
+ **************/
+/* line 2, ../scss/placeholders/_backgrounds.scss */
+.body {
+  background-repeat: repeat;
+}
+
+/* line 6, ../scss/placeholders/_backgrounds.scss */
+.under_construction {
+  background-repeat: no-repeat;
+}
+
+/* line 10, ../scss/placeholders/_backgrounds.scss */
+.body {
+  background-image: url("../img/bg/card-blue50l35.jpg");
+}
+
+/* line 15, ../scss/placeholders/_backgrounds.scss */
+.under_construction {
+  background-image: url("../animated_gifs/construction.gif");
+  width: 263px;
+  height: 56px;
+}
+
+/***************
+ * Base styling
+ **************/
+/**
+  * Theses are all generic modifiers that can 
+  * be applied to any BEM block or element.
+  */
+/* line 10, ../scss/base/_modifiers.scss */
+[class*="--screenreader"] {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/********************
+ * Component styling
+ *******************/
